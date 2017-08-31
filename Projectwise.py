@@ -7,10 +7,7 @@ import ArupCADDProjectwise.PWAddress as PWAddress
 
 PWIncomingFolder = pwman.GetFolder(0, 'pw:\\\\sinpw101.global.arup.com:AUS_SIN_Projects\\Documents\\221392 C2105 (TSL Pkg D)\\10-00 Construction Stage\\09_Python Testing\\Incoming\\')
 PWOutgoingFolder = pwman.GetFolder(0, 'pw:\\\\sinpw101.global.arup.com:AUS_SIN_Projects\\Documents\\221392 C2105 (TSL Pkg D)\\10-00 Construction Stage\\09_Python Testing\\Outgoing\\')
-#pwFol = pwman.GetDocument(0, 'pw:\\\\AUPW10.global.arup.com:AUS_SQL01_Admin\\Documents\\Internal\\PythonTest\\')
-#pwFol.CreateSubFolder('Hi','Hello')
-#print mainPWFolder.Datasource.Name
-#print pwFol.DocumentProperties[0]['PWDoc'].Name
+
 
 ID = PWIncomingFolder.ProjectId
 # print("parent folder ID: " + str(ID))
